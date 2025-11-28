@@ -9,7 +9,7 @@ const app = express();
 app.use(express.json());
 app.use("/api/users", userRoutes);
 
-app.get("/", (req, res) => res.send("shivam API is working"));
+app.get("/", (req, res) => res.send("jatin API is working"));
 
 const PORT = process.env.PORT || 5000;
 
